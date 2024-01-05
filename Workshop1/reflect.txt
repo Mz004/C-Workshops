@@ -1,0 +1,28 @@
+///////////////////////////////////////////////////////////////////////////
+
+                              Reflection
+                             Workshop - #1
+Full Name  : Manav Alpeshbhai Zadafiya 
+Student ID#: 144095221
+Email      : mazadafiya@myseneca.ca
+Section    : ZEE
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+Answer 1. 
+I do have programming experience while studying back in the school where i learned to write basic programming codes using C++ and Java. Both languanges are Object Oriented (OOPs). Due to this, I came to know about objects and classes which helps me in upcoming courses.
+
+
+Answer 2. 
+We use different text editors to write program using language that both computer and human can understand. This programming Language than checked for error. If there is not no error, then code will be converted into machine Language that only computer can understand.
+Finally, computer follows instruction given in code and execute program in readable form.    
+
+
+Answer 3. 
+I want to learn in-depth concepts of executing code and how to translate logic into logic using C language as, in am opinion, concepts are same across different programming languages, we just need to learn syntax with respect to that language. So, I hope that this course helps to built strong base for my programming journey.
+

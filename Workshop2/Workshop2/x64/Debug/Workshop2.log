@@ -1,0 +1,8 @@
+﻿  w2p2.c
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop2\Workshop2\w2p2.c(52,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop2\Workshop2\w2p2.c(53,34): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop2\Workshop2\w2p2.c(60,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop2\Workshop2\w2p2.c(61,34): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop2\Workshop2\w2p2.c(65,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop2\Workshop2\w2p2.c(66,34): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+  Workshop2.vcxproj -> C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop2\Workshop2\x64\Debug\Workshop2.exe

@@ -1,0 +1,45 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #2 (P2)
+Full Name  : Manav Alpeshbhai Zadafiya
+Student ID#: 144095221
+Email      : mazadafiya@myseneca.ca
+Section    : ZEE
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+Answer 1.
+The output for given sample is:
+1. 17.96 = 17.959999 (as cents:1795)
+2. 17.96 = 17.960000 (as cents:1796)
+3. 17.98 = 17.980000 (as cents:1798)
+4. 17.98 = 17.980000 (as cents:1798)
+As price1 is float datatype which has single precision or cannot handle certain decimal values as compared to double datatype which has larger precision value. So, it lead to imprecise rounding errors and while converting into cents by multiplying by 100, it will cut off all decimals as we are using %d as integer format specifier that result in small error.
+
+
+Answer 2.
+The output for given code is:
+1. $72.45
+2. $72.45
+3. $72.45
+In first output , we coercion complier to get intended result by using floating number (100.0) which implicitly promote int to double before arithemetic operator(/). However, In other two, we explicitly promote datatype to double form integer using method of type-casting.
+
+
+Answer 3.
+a) As result is integer datatype , its value is 72. Whenever we perform division using interger datatype, it truncates fractional part to give only whole number as output.
+
+b) Using given code we get output as:
+1. $0.00
+2. $72
+3. $0.00
+4. $72
+
+c) It is because of using irrelevant format specifier(%lf) as money and result are integer which used %d to print values . Also, we can explicitly promote int datatype to double using type-casting as :
+printf("1. $%.2lf\n", (double)money/100);
+printf("3. $%.2lf\n", (double)result/100);
+to get correct output without changing format specifier.

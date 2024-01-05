@@ -1,0 +1,6 @@
+﻿Build started...
+1>------ Build started: Project: Workshop2, Configuration: Debug x64 ------
+1>w2p1.c
+1>Workshop2.vcxproj -> C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop2\Workshop2\x64\Debug\Workshop2.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 12:30 PM and took 00.915 seconds ==========
