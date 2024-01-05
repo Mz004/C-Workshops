@@ -1,0 +1,16 @@
+﻿  w4p2.c
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(28,15): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(33,19): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(36,15): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(41,19): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(44,15): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(49,19): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(52,15): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(57,19): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(60,15): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(65,19): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(28): error C4700: uninitialized local variable 'numberOfApples' used
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(36): error C4700: uninitialized local variable 'numberOfOranges' used
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(44): error C4700: uninitialized local variable 'numberOfPears' used
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(52): error C4700: uninitialized local variable 'numberOfTomatoes' used
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\IPC\workshops\Workshop4\w4p2.c(60): error C4700: uninitialized local variable 'numberOfCabbages' used

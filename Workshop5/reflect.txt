@@ -1,0 +1,33 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : Manav Alpeshbhai Zadafiya
+Student ID#: 144095221
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+Answer 1:
+To make program more maintainable and flexible we use variables and macrons. Moreover, other advantages of using macron is scalability, readability, consistency and reusability.
+For Example, consider the following part of w5p2:
+
+#define MIN_YEAR 2012                  //macrons
+#define MAX_YEAR 2022                  //macrons                                                              
+
+const int January = 1, December = 12;        //variables
+
+if ((year < MIN_YEAR || year > MAX_YEAR) && (month < January || month > December)) 
+{
+	printf("   ERROR: The year must be between %d and %d inclusive\n   ERROR: Jan.(%d) - Dec.(%d)\n", MIN_YEAR, MAX_YEAR, January, December);           //No hardcoding
+}
+
+If we hardcoded above code it will be tedious to change value everytime when we change macrons value. However, while using macrons we just have to change values at Top of the code in #define and makes our code more flexible, maintainable and scalable.
+
+
+
+
+Answer 2:
+We kept sum and average logic outside the validation routine because it will be easy to perform expressions once user input has been validated and value has been stored in variable. By this, we can reuse that value for different logic. Moreover, if we use sum and average logic inside loop validation , it sometimes may result in complexilty and leads to unexpected output. Apart form this, it is also better practice to seperate differnt logics to maintain readability.

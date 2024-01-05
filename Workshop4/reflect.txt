@@ -1,0 +1,25 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #4
+Full Name  : Manav Alpeshbhai Zadafiya 
+Student ID#: 144095221
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+Answer 1:
+By declaring all the variables with meaningful and self-descriptive name at top along with consistently providing proper indentation to seperate particular code block (i.e.for while loops and logical statements) makes program more readable and easy to maintain.
+
+
+
+Answer 2:
+This program is completely based on nested logic. Initially, we used Do-while loop to execute program atleast once or multiple times if required. Then, inside Do-while loop, we created multiple while loops(grocery shopping part) and combination of while and nested-if statements with proper indentation(grocery picking part). 
+If nesting were not possible, it would be very tedious to maintain code and also time consuming as we have to write extra code blocks to get same result.
+
+
+
+Answer 3:
+Because if we use only 'if' statements, it will check all conditions even if one is satisfied which result in more compile time. Also, it would disturb code's readability and scalability if more numbers(apart from 1 to 5) need to be added. After all, it would be difficult to maintain code and tedious to alter code in case of any improvement.
