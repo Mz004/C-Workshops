@@ -1,0 +1,4 @@
+﻿  w8p2.c
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\Sem 1\IPC\workshops\Workshop8\w8p2.c(189,42): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+C:\Users\manav\OneDrive\Desktop\SENECA CPP\Sem 1\IPC\workshops\Workshop8\w8p2.c(202,42): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+  Workshop8.vcxproj -> C:\Users\manav\OneDrive\Desktop\SENECA CPP\Sem 1\IPC\workshops\Workshop8\x64\Debug\Workshop8.exe

@@ -1,0 +1,52 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : Manav Alpeshbhai Zadafiya
+Student ID#: 144095221
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+Answer 1:
+Functions like "calculateServings" were designed to return values in two different way i.e. by passing arguments and by returing value.
+By this feature, code become more flexible due to multiple choice of accessing value and one can access them according to their requirement. however, this also increase complexity of code and reduce cohesion as passing multiple values might get unexpected result and also makes it more difficult to debug the code in case of error.
+It is good programming style to adhere to the single-entry single-exit principle having a single return statement 
+
+
+
+Answer 2:
+cohesion refer to function performing only one specific task. One function in the workshop that demonstrates less than perfect cohesion is "getCatFoodInfo". Along with taking user input, it also construct structure which can be done seperated to promote cohesion and control the code block more effectively.
+
+one function that demonstrates coupling that could be improved is "convertLbsG" which depends on other module "convertLbsKg" for its functioning. If "convertLbsKg" does not function properly, it all affect "convertLbsG" and lead to unexpected output. 
+we can improve it by providing independent defination which reduce coupling and increase cohesion
+
+improved code:
+int convertLbsG(const double* lbs, int* lbsToG) {
+	int covertLbsToG = ((*lbs) / LBS_TO_KG) * 1000;
+
+	if (lbsToG != NULL)
+	{
+		*lbsToG = covertLbsToG;
+	}
+
+	return covertLbsToG;
+}
+
+
+
+Anwer 3:
+passing structure by function can help in organizing and grouping all related data together. Morevover, it promote modularity which makes code easier to test, debug and update in future.
+By passing structure using pointers rather than value to functions makes it more effecients. It avoids copying all member values, saving time and space especially in cases where a member is an array with a large number of elements. Passing an object by address only copies the address, which typically occupies 4 bytes. 
+
+"displayCatFoodData" can be improved as: 
+{
+	printf("%07d %10.2lf %10.1lf %8d\n", cFoodInfo.sku_number, cFoodInfo.product_price, cFoodInfo.product_weight_lbs, cFoodInfo.calorie_per_serving);
+}
+
+rather than:
+{
+	printf("%07d %10.2lf %10.1lf %8d\n", sku_number, *product_price, *product_weight_lbs, calorie_per_serving);
+}
