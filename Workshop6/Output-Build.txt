@@ -1,0 +1,7 @@
+﻿Build started...
+1>------ Build started: Project: Workshop6, Configuration: Debug x64 ------
+1>w6p1.c
+1>LINK : fatal error LNK1168: cannot open C:\Users\manav\OneDrive\Desktop\SENECA CPP\Sem 1\IPC\workshops\Workshop6\x64\Debug\Workshop6.exe for writing
+1>Done building project "Workshop6.vcxproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 4:56 PM and took 01.423 seconds ==========

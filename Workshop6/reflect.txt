@@ -1,0 +1,24 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #6
+Full Name  : Manav Alpeshbhai zadafiya
+Student ID#: 144095221
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+Answer 1:
+As every program follows different structure, same iteration construct would not best fit in every code-block. So, we have to analysis which would be the best for provided condition. For instance, when we have to execute our code block atleast once without checking condition, we have to use DO-WHILE construct as I did in code multiple time. Apart from this, when working with arrays we prefer to use FOR-loop construct over other options as FOR-loop, due to its controlled and concise syntax, makes it easier to handle and control array index and change according to requirements. Hence, FOR-loop construct would fit best when working with arrays. 
+
+
+
+Answer 2:
+After completing code, I review code carefully and try to find errors and code block that can rise error while building solution, then build solution and run the program, if there are any syntactic error, complier will display errors along with its line number and after correcting all syntactic error, Then I again run the program for testing, reviewing output using different conditions to check for any abnormality arises due to semantic error. And repeat this process until I get a desired output.
+
+
+
+Answer 3:
+After receiving this feedback from submitter. I review my code and required output again to check for errors. According to workshop, This is user input value that is expected to be 0 which might be mistakenly inputted as 567.89. So, I again run submit command to resubmit code and CAREFULLY insert every value that can match required output. As matrix submitter compares submitted output with system required output and than only allow us to submit workshop successfully.
