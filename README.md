@@ -84,11 +84,15 @@ Any unauthorized use, reproduction, or distribution of this content is strictly 
 To get started with any of the workshops, you can:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/c-language-workshops.git
+   git clone https://github.com/Mz004/C-Workshops.git
    ```
 2. Navigate to the desired workshop folder.
+   ```bash
+   //example
+   cd workshop01
+   ```
 
-3. Compile and run the C programs using a C compiler (e.g., GCC or Clang).
+4. Compile and run the C programs using a C compiler (e.g., GCC or Clang).
 
 
 ## License
