@@ -88,8 +88,7 @@ To get started with any of the workshops, you can:
    ```
 2. Navigate to the desired workshop folder.
    ```bash
-   //example
-   cd workshop01
+   cd workshop1
    ```
 
 4. Compile and run the C programs using a C compiler (e.g., GCC or Clang).
